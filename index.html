@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+  <style>
+    .navbar-fixed {
+      position: absolute;
+      z-index: 999999999;
+    }
+  </style>
+
+  <div class="navbar-fixed">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <div class="row">
+          <div class="col s12">
+            <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+            <a href="javascript:void(0)" class="brand-logo" target="_blank">Sigurjel</a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="javascript:void(0)" target="_blank">Instagram</a></li>
+              <li><a href="javascript:void(0)" target="_blank">About me</a></li>
+              <li><a href="javascript:void(0)" target="_blank">Side project</a></li>
+            </ul>
+          </div>
+        </div>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="javascript:void(0)" target="_blank">Instagram</a></li>
+          <li><a href="javascript:void(0)" target="_blank">About me</a></li>
+          <li><a href="javascript:void(0)" target="_blank">Side project</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="main-text">
+    <div class="row">
+      <div class="col s12">
+        <h3><span class="striketg bolder italicu underlinu">Text</span>  decoration Generator</h3>
+        <p>For social networks like Facebook, Twitter, Instagram etc
+          <p>
+            <input type="text" class="input-field z-depth-2" id="our-text" placeholder="Anything..." maxlength="255">
+      </div>
+    </div>
+    <div class="row section">
+      <div class="col s12">
+        <button class="waves-effect waves-light btn btn-bold" id="bold">Bold</button>
+        <button class="waves-effect waves-teal btn btn-italic" id="italic">Italic</button>
+        <button class="waves-effect waves-red btn btn-strike" id="strike">Strike</button>
+
+      </div>
+      <div class="section container">
+        <div class="col s12">
+          <p id="results" class="left"><p>
+        </div>
+
+        <h6 class="left ket">Your <span class="bolder italicu striketg">decoration text</span> will appear above, click to copy it <button id="copy-button" class="btn sm" data-clipboard-target="#results">Copy</button></h6>
+      </div>
+    </div>
+  </div>
+  <div class="gg">
+</body>
+
+</html>
